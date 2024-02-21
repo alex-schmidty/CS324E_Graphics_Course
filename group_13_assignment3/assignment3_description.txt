@@ -1,0 +1,21 @@
+Description of each part:
+
+jewishfairystories_wordcloud.png
+This is an image of a wordcloud created with Word Clouds for our text "Jewish Fairy Stories".
+
+extract_words.py:
+-created by Alex Schmidt
+-This Python file extracts each word from a file called novel.txt and creates uniquewords.txt which contains
+ a list of every unique word and wordfrequency.txt which sorts the words by the number of times they were used
+ and counts the number of words in each frequency category.
+
+a3_novelvisualization Processing file:
+-created by Zach Marx
+-When this program is run and while its canvas is clicked, a random set of the words from uniquewords.txt
+ are displayed on screen and color coated based on the first letter of that word.
+
+a3_wordfrequency Processing file:
+-created by Jeremiah Johnson
+-This program takes our text file of frequencies and creates a PI Chart to visualize the proportions between them. 
+ You are able to hover the mouse over sections of the chart in order to see the percentage of the total that section uses up.
+
