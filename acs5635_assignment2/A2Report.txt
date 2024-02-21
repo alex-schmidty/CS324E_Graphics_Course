@@ -1,0 +1,1 @@
+I implimented the 5x5 blur function on key '6.' I also added the sharpen kernel on key '5' and a decrease contrast function on key '7.'
