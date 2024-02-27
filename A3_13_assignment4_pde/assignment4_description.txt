@@ -1,0 +1,9 @@
+Our animation is meant to be a race between two cars that has a randomized winner. The race begins with as a stop light changes from red to yellow to green. The road and race viewers enter and exit the canvas to show that we're moving to the right. Then the cars' x position variaes to show their increase and decrease in speed. Which ever car is in front has a driver with a happy face, and the driver behind has a sad face. After a certain number of frames the finish line appears and the winner is announced in text at the top of the screen. 
+
+The stopLight and RaceBanner classes were done by Jeremiah. the StopLight class is used to make a stoplight appear before the cars. It then blinks red, yellow, green ans dissapears as the race begins. The  RaceBanner class determines the winner at the end of the race and displays "Red/Blue Wins!". 
+
+The Car, CarWheel, and Driver classes were done by Zach. The car class creates the drawing for the car and has a method to move the object across the screen horizontally. CarWheel is an extension to the car class that animates the tires and makes them spin based on the speed of the car. Lastly the driver class accepts a car as a parameter and draws a driver for that car. It also saves the drivers mood which is based on whether the driver is in the lead or not.
+
+Alex created the classes Road and Person. The road class creates the never ending background of the two laned road. It moves the road from right to left to make it seem like the cars are driving faster. The Person class creates the fans that are stick figures jumping and enjoying the race from the sidelines. Alex also created the original A3_13_assignment4, which has been adjusted since to include the other objects. 
+
+Overall, the project went smoothly and not much changed from our original plan in the progress report. One small change we we decided to do a side view of the cars as opposed to a birdseye view. 
